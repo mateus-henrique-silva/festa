@@ -1,0 +1,45 @@
+/* Estilo da página inicial */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .message-button {
+    background-color: #4a90e2;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .message-button:hover {
+    background-color: #357ab8;
+  }
+  
+  /* Responsividade para tablets */
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .message-button {
+      font-size: 20px;
+      padding: 20px 40px;
+    }
+  }
+  
